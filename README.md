@@ -21,6 +21,7 @@ static NSString *const kAppTracking = @"App2";
 
 self.tracker = [[GAI sharedInstance] trackerWithName:kAppTracking
                                           trackingId:kTrackingId];
+```
 
 **Send message**
 
@@ -31,6 +32,7 @@ NSMutableDictionary *event = [[GAIDictionaryBuilder createEventWithCategory:@"Ac
                                                                           value:nil] build];
 [[GAI sharedInstance].defaultTracker send:event];
 [[GAI sharedInstance] dispatch];
+```
 
 ### Flurry
 [Flurry](https://dev.flurry.com/home.do)
