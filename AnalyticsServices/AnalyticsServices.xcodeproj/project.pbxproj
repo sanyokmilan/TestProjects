@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7DB03618BCAD7400B9B007 /* libFlurry_4.3.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7DB02118BCAD7400B9B007 /* libFlurry_4.3.2.a */; };
+		DB7DB03718BCAD7400B9B007 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7DB02918BCAD7400B9B007 /* libGoogleAnalyticsServices.a */; };
+		DB7DB03818BCAD7400B9B007 /* iOSa_2.21.1.version in Resources */ = {isa = PBXBuildFile; fileRef = DB7DB03018BCAD7400B9B007 /* iOSa_2.21.1.version */; };
+		DB7DB03918BCAD7400B9B007 /* libLocalyticsAMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7DB03118BCAD7400B9B007 /* libLocalyticsAMP.a */; };
+		DB7DB03B18BCAD7400B9B007 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DB7DB03318BCAD7400B9B007 /* LICENSE */; };
+		DBCC039F18B4E91600F88349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC039E18B4E91600F88349 /* Foundation.framework */; };
+		DBCC03A118B4E91600F88349 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03A018B4E91600F88349 /* CoreGraphics.framework */; };
+		DBCC03A318B4E91600F88349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03A218B4E91600F88349 /* UIKit.framework */; };
+		DBCC03A918B4E91600F88349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBCC03A718B4E91600F88349 /* InfoPlist.strings */; };
+		DBCC03AB18B4E91600F88349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC03AA18B4E91600F88349 /* main.m */; };
+		DBCC03AF18B4E91600F88349 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC03AE18B4E91600F88349 /* AppDelegate.m */; };
+		DBCC03B218B4E91600F88349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCC03B018B4E91600F88349 /* Main.storyboard */; };
+		DBCC03B518B4E91600F88349 /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC03B418B4E91600F88349 /* AnalyticsViewController.m */; };
+		DBCC03B718B4E91600F88349 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCC03B618B4E91600F88349 /* Images.xcassets */; };
+		DBCC03BE18B4E91600F88349 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03BD18B4E91600F88349 /* XCTest.framework */; };
+		DBCC03BF18B4E91600F88349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC039E18B4E91600F88349 /* Foundation.framework */; };
+		DBCC03C018B4E91600F88349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03A218B4E91600F88349 /* UIKit.framework */; };
+		DBCC03C818B4E91600F88349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBCC03C618B4E91600F88349 /* InfoPlist.strings */; };
+		DBCC03CA18B4E91600F88349 /* AnalyticsServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC03C918B4E91600F88349 /* AnalyticsServicesTests.m */; };
+		DBCC03E718B4EA0600F88349 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03D318B4E95300F88349 /* SystemConfiguration.framework */; };
+		DBCC03F118B4EAA800F88349 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03E518B4E9B200F88349 /* libz.dylib */; };
+		DBCC03F218B4EAAF00F88349 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC03D518B4E95800F88349 /* CoreData.framework */; };
+		DBCC046218B4FAA100F88349 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC046118B4FAA100F88349 /* AdSupport.framework */; };
+		DBCC046618B510A200F88349 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCC046518B510A200F88349 /* libsqlite3.dylib */; };
+		DD79B3E1F46F41A9A30A6D04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EC2B08BE204A6CB8A1A300 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCC03C118B4E91600F88349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCC039318B4E91600F88349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCC039A18B4E91600F88349;
+			remoteInfo = AnalyticsServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8BA522AF24A40FD8F7A6DF2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DB7DB02018BCAD7400B9B007 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		DB7DB02118BCAD7400B9B007 /* libFlurry_4.3.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.2.a; sourceTree = "<group>"; };
+		DB7DB02318BCAD7400B9B007 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		DB7DB02418BCAD7400B9B007 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		DB7DB02518BCAD7400B9B007 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		DB7DB02618BCAD7400B9B007 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		DB7DB02718BCAD7400B9B007 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		DB7DB02818BCAD7400B9B007 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		DB7DB02918BCAD7400B9B007 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		DB7DB02A18BCAD7400B9B007 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		DB7DB02B18BCAD7400B9B007 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		DB7DB02C18BCAD7400B9B007 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		DB7DB02D18BCAD7400B9B007 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		DB7DB02E18BCAD7400B9B007 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		DB7DB03018BCAD7400B9B007 /* iOSa_2.21.1.version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSa_2.21.1.version; sourceTree = "<group>"; };
+		DB7DB03118BCAD7400B9B007 /* libLocalyticsAMP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLocalyticsAMP.a; sourceTree = "<group>"; };
+		DB7DB03318BCAD7400B9B007 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DB7DB03418BCAD7400B9B007 /* LocalyticsAmpSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsAmpSession.h; sourceTree = "<group>"; };
+		DB7DB03518BCAD7400B9B007 /* LocalyticsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsSession.h; sourceTree = "<group>"; };
+		DBCC039B18B4E91600F88349 /* AnalyticsServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCC039E18B4E91600F88349 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBCC03A018B4E91600F88349 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBCC03A218B4E91600F88349 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBCC03A618B4E91600F88349 /* AnalyticsServices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalyticsServices-Info.plist"; sourceTree = "<group>"; };
+		DBCC03A818B4E91600F88349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBCC03AA18B4E91600F88349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBCC03AC18B4E91600F88349 /* AnalyticsServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnalyticsServices-Prefix.pch"; sourceTree = "<group>"; };
+		DBCC03AD18B4E91600F88349 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBCC03AE18B4E91600F88349 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBCC03B118B4E91600F88349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCC03B318B4E91600F88349 /* AnalyticsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		DBCC03B418B4E91600F88349 /* AnalyticsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		DBCC03B618B4E91600F88349 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBCC03BC18B4E91600F88349 /* AnalyticsServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCC03BD18B4E91600F88349 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBCC03C518B4E91600F88349 /* AnalyticsServicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalyticsServicesTests-Info.plist"; sourceTree = "<group>"; };
+		DBCC03C718B4E91600F88349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBCC03C918B4E91600F88349 /* AnalyticsServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalyticsServicesTests.m; sourceTree = "<group>"; };
+		DBCC03D318B4E95300F88349 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DBCC03D518B4E95800F88349 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DBCC03E518B4E9B200F88349 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DBCC046118B4FAA100F88349 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DBCC046518B510A200F88349 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F8EC2B08BE204A6CB8A1A300 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCC039818B4E91600F88349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCC046618B510A200F88349 /* libsqlite3.dylib in Frameworks */,
+				DB7DB03618BCAD7400B9B007 /* libFlurry_4.3.2.a in Frameworks */,
+				DBCC046218B4FAA100F88349 /* AdSupport.framework in Frameworks */,
+				DBCC03F218B4EAAF00F88349 /* CoreData.framework in Frameworks */,
+				DBCC03F118B4EAA800F88349 /* libz.dylib in Frameworks */,
+				DBCC03E718B4EA0600F88349 /* SystemConfiguration.framework in Frameworks */,
+				DBCC03A118B4E91600F88349 /* CoreGraphics.framework in Frameworks */,
+				DBCC03A318B4E91600F88349 /* UIKit.framework in Frameworks */,
+				DB7DB03718BCAD7400B9B007 /* libGoogleAnalyticsServices.a in Frameworks */,
+				DB7DB03918BCAD7400B9B007 /* libLocalyticsAMP.a in Frameworks */,
+				DBCC039F18B4E91600F88349 /* Foundation.framework in Frameworks */,
+				DD79B3E1F46F41A9A30A6D04 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCC03B918B4E91600F88349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCC03BE18B4E91600F88349 /* XCTest.framework in Frameworks */,
+				DBCC03C018B4E91600F88349 /* UIKit.framework in Frameworks */,
+				DBCC03BF18B4E91600F88349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7DB01F18BCAD7400B9B007 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				DB7DB02018BCAD7400B9B007 /* Flurry.h */,
+				DB7DB02118BCAD7400B9B007 /* libFlurry_4.3.2.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		DB7DB02218BCAD7400B9B007 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DB7DB02318BCAD7400B9B007 /* GAI.h */,
+				DB7DB02418BCAD7400B9B007 /* GAIDictionaryBuilder.h */,
+				DB7DB02518BCAD7400B9B007 /* GAIFields.h */,
+				DB7DB02618BCAD7400B9B007 /* GAILogger.h */,
+				DB7DB02718BCAD7400B9B007 /* GAITrackedViewController.h */,
+				DB7DB02818BCAD7400B9B007 /* GAITracker.h */,
+				DB7DB02918BCAD7400B9B007 /* libGoogleAnalyticsServices.a */,
+				DB7DB02A18BCAD7400B9B007 /* TAGContainer.h */,
+				DB7DB02B18BCAD7400B9B007 /* TAGContainerOpener.h */,
+				DB7DB02C18BCAD7400B9B007 /* TAGDataLayer.h */,
+				DB7DB02D18BCAD7400B9B007 /* TAGLogger.h */,
+				DB7DB02E18BCAD7400B9B007 /* TAGManager.h */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		DB7DB02F18BCAD7400B9B007 /* Localytics */ = {
+			isa = PBXGroup;
+			children = (
+				DB7DB03018BCAD7400B9B007 /* iOSa_2.21.1.version */,
+				DB7DB03118BCAD7400B9B007 /* libLocalyticsAMP.a */,
+				DB7DB03318BCAD7400B9B007 /* LICENSE */,
+				DB7DB03418BCAD7400B9B007 /* LocalyticsAmpSession.h */,
+				DB7DB03518BCAD7400B9B007 /* LocalyticsSession.h */,
+			);
+			path = Localytics;
+			sourceTree = "<group>";
+		};
+		DBCC039218B4E91600F88349 = {
+			isa = PBXGroup;
+			children = (
+				DBCC03A418B4E91600F88349 /* AnalyticsServices */,
+				DBCC03C318B4E91600F88349 /* AnalyticsServicesTests */,
+				DBCC039D18B4E91600F88349 /* Frameworks */,
+				DBCC039C18B4E91600F88349 /* Products */,
+				B8BA522AF24A40FD8F7A6DF2 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCC039C18B4E91600F88349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC039B18B4E91600F88349 /* AnalyticsServices.app */,
+				DBCC03BC18B4E91600F88349 /* AnalyticsServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCC039D18B4E91600F88349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC046518B510A200F88349 /* libsqlite3.dylib */,
+				DBCC046118B4FAA100F88349 /* AdSupport.framework */,
+				DBCC03E518B4E9B200F88349 /* libz.dylib */,
+				DBCC03D518B4E95800F88349 /* CoreData.framework */,
+				DBCC03D318B4E95300F88349 /* SystemConfiguration.framework */,
+				DBCC039E18B4E91600F88349 /* Foundation.framework */,
+				DBCC03A018B4E91600F88349 /* CoreGraphics.framework */,
+				DBCC03A218B4E91600F88349 /* UIKit.framework */,
+				DBCC03BD18B4E91600F88349 /* XCTest.framework */,
+				F8EC2B08BE204A6CB8A1A300 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBCC03A418B4E91600F88349 /* AnalyticsServices */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC03FB18B4F9E500F88349 /* Libraries */,
+				DBCC03AD18B4E91600F88349 /* AppDelegate.h */,
+				DBCC03AE18B4E91600F88349 /* AppDelegate.m */,
+				DBCC03B018B4E91600F88349 /* Main.storyboard */,
+				DBCC03B318B4E91600F88349 /* AnalyticsViewController.h */,
+				DBCC03B418B4E91600F88349 /* AnalyticsViewController.m */,
+				DBCC03B618B4E91600F88349 /* Images.xcassets */,
+				DBCC03A518B4E91600F88349 /* Supporting Files */,
+			);
+			path = AnalyticsServices;
+			sourceTree = "<group>";
+		};
+		DBCC03A518B4E91600F88349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC03A618B4E91600F88349 /* AnalyticsServices-Info.plist */,
+				DBCC03A718B4E91600F88349 /* InfoPlist.strings */,
+				DBCC03AA18B4E91600F88349 /* main.m */,
+				DBCC03AC18B4E91600F88349 /* AnalyticsServices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBCC03C318B4E91600F88349 /* AnalyticsServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC03C918B4E91600F88349 /* AnalyticsServicesTests.m */,
+				DBCC03C418B4E91600F88349 /* Supporting Files */,
+			);
+			path = AnalyticsServicesTests;
+			sourceTree = "<group>";
+		};
+		DBCC03C418B4E91600F88349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBCC03C518B4E91600F88349 /* AnalyticsServicesTests-Info.plist */,
+				DBCC03C618B4E91600F88349 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBCC03FB18B4F9E500F88349 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DB7DB01F18BCAD7400B9B007 /* Flurry */,
+				DB7DB02218BCAD7400B9B007 /* GoogleAnalytics */,
+				DB7DB02F18BCAD7400B9B007 /* Localytics */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCC039A18B4E91600F88349 /* AnalyticsServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCC03CD18B4E91600F88349 /* Build configuration list for PBXNativeTarget "AnalyticsServices" */;
+			buildPhases = (
+				5DAB5F3F5BDD49FEB8856260 /* Check Pods Manifest.lock */,
+				DBCC039718B4E91600F88349 /* Sources */,
+				DBCC039818B4E91600F88349 /* Frameworks */,
+				DBCC039918B4E91600F88349 /* Resources */,
+				AC065025A80A481291AFF4AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalyticsServices;
+			productName = AnalyticsServices;
+			productReference = DBCC039B18B4E91600F88349 /* AnalyticsServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCC03BB18B4E91600F88349 /* AnalyticsServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCC03D018B4E91600F88349 /* Build configuration list for PBXNativeTarget "AnalyticsServicesTests" */;
+			buildPhases = (
+				DBCC03B818B4E91600F88349 /* Sources */,
+				DBCC03B918B4E91600F88349 /* Frameworks */,
+				DBCC03BA18B4E91600F88349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCC03C218B4E91600F88349 /* PBXTargetDependency */,
+			);
+			name = AnalyticsServicesTests;
+			productName = AnalyticsServicesTests;
+			productReference = DBCC03BC18B4E91600F88349 /* AnalyticsServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCC039318B4E91600F88349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Videal;
+				TargetAttributes = {
+					DBCC03BB18B4E91600F88349 = {
+						TestTargetID = DBCC039A18B4E91600F88349;
+					};
+				};
+			};
+			buildConfigurationList = DBCC039618B4E91600F88349 /* Build configuration list for PBXProject "AnalyticsServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCC039218B4E91600F88349;
+			productRefGroup = DBCC039C18B4E91600F88349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCC039A18B4E91600F88349 /* AnalyticsServices */,
+				DBCC03BB18B4E91600F88349 /* AnalyticsServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCC039918B4E91600F88349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7DB03818BCAD7400B9B007 /* iOSa_2.21.1.version in Resources */,
+				DBCC03B718B4E91600F88349 /* Images.xcassets in Resources */,
+				DBCC03A918B4E91600F88349 /* InfoPlist.strings in Resources */,
+				DBCC03B218B4E91600F88349 /* Main.storyboard in Resources */,
+				DB7DB03B18BCAD7400B9B007 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCC03BA18B4E91600F88349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCC03C818B4E91600F88349 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DAB5F3F5BDD49FEB8856260 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC065025A80A481291AFF4AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCC039718B4E91600F88349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCC03B518B4E91600F88349 /* AnalyticsViewController.m in Sources */,
+				DBCC03AF18B4E91600F88349 /* AppDelegate.m in Sources */,
+				DBCC03AB18B4E91600F88349 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCC03B818B4E91600F88349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCC03CA18B4E91600F88349 /* AnalyticsServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCC03C218B4E91600F88349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCC039A18B4E91600F88349 /* AnalyticsServices */;
+			targetProxy = DBCC03C118B4E91600F88349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBCC03A718B4E91600F88349 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCC03A818B4E91600F88349 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBCC03B018B4E91600F88349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCC03B118B4E91600F88349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBCC03C618B4E91600F88349 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCC03C718B4E91600F88349 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCC03CB18B4E91600F88349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBCC03CC18B4E91600F88349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCC03CE18B4E91600F88349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BA522AF24A40FD8F7A6DF2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalyticsServices/AnalyticsServices-Prefix.pch";
+				INFOPLIST_FILE = "AnalyticsServices/AnalyticsServices-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/Flurry,
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/GoogleAnalytics,
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/Localytics,
+				);
+				PRODUCT_NAME = AnalyticsServices;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBCC03CF18B4E91600F88349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BA522AF24A40FD8F7A6DF2 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalyticsServices/AnalyticsServices-Prefix.pch";
+				INFOPLIST_FILE = "AnalyticsServices/AnalyticsServices-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/Flurry,
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/GoogleAnalytics,
+					/Users/alexandervoityuk/Projects/GitHub/TestProjects/AnalyticApps/AnalyticsServices/Libraries/Localytics,
+				);
+				PRODUCT_NAME = AnalyticsServices;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBCC03D118B4E91600F88349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnalyticsServices.app/AnalyticsServices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalyticsServices/AnalyticsServices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnalyticsServicesTests/AnalyticsServicesTests-Info.plist";
+				PRODUCT_NAME = AnalyticsServicesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DBCC03D218B4E91600F88349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnalyticsServices.app/AnalyticsServices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalyticsServices/AnalyticsServices-Prefix.pch";
+				INFOPLIST_FILE = "AnalyticsServicesTests/AnalyticsServicesTests-Info.plist";
+				PRODUCT_NAME = AnalyticsServicesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCC039618B4E91600F88349 /* Build configuration list for PBXProject "AnalyticsServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCC03CB18B4E91600F88349 /* Debug */,
+				DBCC03CC18B4E91600F88349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCC03CD18B4E91600F88349 /* Build configuration list for PBXNativeTarget "AnalyticsServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCC03CE18B4E91600F88349 /* Debug */,
+				DBCC03CF18B4E91600F88349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCC03D018B4E91600F88349 /* Build configuration list for PBXNativeTarget "AnalyticsServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCC03D118B4E91600F88349 /* Debug */,
+				DBCC03D218B4E91600F88349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCC039318B4E91600F88349 /* Project object */;
+}
